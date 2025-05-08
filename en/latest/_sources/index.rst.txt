@@ -1,12 +1,25 @@
-ChipFlow documentation
-======================
+.. image:: chipflow-lib/_assets/chipflow-logo.svg
+   :width: 200px
+   :class: sd-m-auto
+   :name: landing-page-logo
 
-Try our :doc:`tutorial-intro-chipflow-platform`.
+
+ChipFlow IC Design Platform
+---------------------------
+
+ChipFlow is an open-source platform for designing, testing, and manufacturing custom silicon.
+It provides a streamlined workflow from design to fabrication using Python and the Amaranth HDL.
+
 
 Contents
 --------
 
 .. toctree::
+   :caption: User Guide
+   :maxdepth: 2
 
-   tutorial-intro-chipflow-platform
+   chipflow-lib/getting-started
+   chipflow-lib/index
+   Amaranth Language and Toolchain <amaranth/index>
+   Amaranth System-on-a-Chip toolkit <amaranth-soc/index>
    support
